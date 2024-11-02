@@ -1,0 +1,25 @@
+.container{
+
+}
+.carousel{
+   
+    margin: -7%;
+    margin-left: -27%;
+    margin-right: -25%;
+   
+
+    ;
+ margin-top:10%;
+padding-bottom: 6%;
+}
+.d-block{
+    background-image: url("./happy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding: 10%;
+    padding-bottom: 40%;
+
+
+}

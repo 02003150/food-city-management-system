@@ -1,0 +1,11 @@
+.container{
+    background-image: url("./users.png");
+   padding: 36%;
+   margin-left: 3%;
+   padding-left:70%;
+   padding-right: 70%;
+   padding-bottom: 50%;
+   margin-top: 3%;
+   border-radius: 10%;
+}
+
