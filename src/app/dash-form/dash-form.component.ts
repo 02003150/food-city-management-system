@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-dash-form',
   standalone: true,
-  imports: [LoginFormComponent,OderFormComponent,UserFormComponent,RouterLink],
+  imports: [RouterLink],
   templateUrl: './dash-form.component.html',
   styleUrl: './dash-form.component.css'
 })

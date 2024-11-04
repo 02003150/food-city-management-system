@@ -5,33 +5,29 @@
         </a>
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
-          <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page"  routerLink="['']">
-              <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
-              Home
-            </a>
-          </li>
+          
           <li class="nav-item" > 
-            <a [routerLink]="['/user-form']">
+            <a [routerLink]="['/user-form']" style="color: black; font-weight: normal;">
               Users
             </a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link link-dark"  routerLink="['']">
-              <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
-              Orders
+          <li class="nav-item" > 
+            <a [routerLink]="['/oder-form']" class="plain-text">
+              Oders
             </a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link link-dark"  routerLink="['']">
-              <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
+          <li class="nav-item" > 
+            <a [routerLink]="['/product-form']">
               Products
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link link-dark"  routerLink="['']">
-              <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+          <li class="nav-item" > 
+            <a [routerLink]="['/customer-form']">
               Customers
+            </a>
+          </li>
+          <li class="nav-item" > 
+            <a [routerLink]="['/supplier-form']">
+              Suppliers
             </a>
           </li>
         </ul>

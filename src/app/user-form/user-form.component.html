@@ -1,3 +1,30 @@
 <div class="container">
-    <img src="" alt="">
+ <h1>USER FORM</h1>
+  <table class="table table-hover table-success table-striped  table-borderless">
+    <thead>
+      <tr>
+        <th scope="col">User Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Address</th>
+        <th scope="col">DOB</th>
+        <th scope="col">Salary</th>
+        <th scope="col">Position</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of userList;">
+        <th scope="row">{{user.userId}}</th>
+        <td>{{user.name}}</td>
+        <td>{{user.address}}</td>
+        <td>{{user.dob}}</td>
+        <td>{{user.salary}}</td>
+        <td>{{user.position}}</td>
+        <td>{{user.description}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
   </div>
+
+  
