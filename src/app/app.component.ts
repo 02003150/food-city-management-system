@@ -5,11 +5,12 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { DashFormComponent } from './dash-form/dash-form.component';
 import { UserFormComponent } from './user-form/user-form.component';
 import { OderFormComponent } from './oder-form/oder-form.component';
+import { ManageUsersFormComponent } from './manage-users-form/manage-users-form.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HomePageComponent,LoginFormComponent,DashFormComponent,UserFormComponent,OderFormComponent],
+  imports: [RouterOutlet,HomePageComponent,LoginFormComponent,DashFormComponent,UserFormComponent,OderFormComponent,ManageUsersFormComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

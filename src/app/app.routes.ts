@@ -9,11 +9,13 @@ import { SupplierFormComponent } from './supplier-form/supplier-form.component';
 import { OderFormComponent } from './oder-form/oder-form.component';
 import { CustomerFormComponent } from './customer-form/customer-form.component';
 import { ProductFormComponent } from './product-form/product-form.component';
+import { AddProductFormComponent } from './add-product-form/add-product-form.component';
+import { ManageUsersFormComponent } from './manage-users-form/manage-users-form.component';
 
 export const routes: Routes = [
     {
         path:'',
-        component:LoginFormComponent
+        component: HomePageFormComponent
     },
     
     {
@@ -40,6 +42,14 @@ export const routes: Routes = [
     {
         path:'product-form',
         component:ProductFormComponent
+    },
+    {
+        path:'add-product-form',
+        component:AddProductFormComponent
+    },
+    {
+        path:'manage-users-form',
+        component:ManageUsersFormComponent
     }
     
 ];

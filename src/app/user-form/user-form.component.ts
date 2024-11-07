@@ -4,11 +4,12 @@ import { DashFormComponent } from '../dash-form/dash-form.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ManageUsersFormComponent } from '../manage-users-form/manage-users-form.component';
 
 @Component({
   selector: 'app-user-form',
   standalone: true,
-  imports: [RouterLink,HttpClientModule,CommonModule,FormsModule],
+  imports: [RouterLink,HttpClientModule,CommonModule,FormsModule,ManageUsersFormComponent],
   templateUrl: './user-form.component.html',
   styleUrl: './user-form.component.css'
 })
